@@ -1,0 +1,41 @@
+<div id="header">
+    <div class="row">
+        <div class="large-4 columns">
+            {% if site.title %}
+                <h2>{{ site.title }}</h2>
+            {% endif %}   
+            {% if site.description %}
+                <h6 class="light">{{ site.description }}</h6>
+            {% endif %}
+            <img class="profile-pic" src="{{ url('theme://img/profile-pic.jpg') }}">
+        </div>
+        <div class="large-4 columns">
+            <div class="row">
+                <div class="small-4 columns light2 italic">
+                    Address:
+                </div>
+                <div class="small-8 columns border-left light2 ">
+                    <ul class="no-bullet">
+                        {% for item in site.address %}
+                            <li>{{ item.line }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="large-4 columns">
+            <div class="row">
+                <div class="small-4 columns light2 italic">
+                    Contact:
+                </div>
+                <div class="small-8 columns border-left light2">
+                    <ul class="no-bullet">
+                        {% for item in site.contact %}
+                            <li>{{ item.line }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

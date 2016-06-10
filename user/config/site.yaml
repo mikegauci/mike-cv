@@ -1,0 +1,17 @@
+title: Michael gauci
+description: Front End Developer
+author:
+  name: Team Grav
+  email: 'joe@test.com'
+metadata:
+    description: 'Resume is a free and responsive theme for **Grav**. Its a port of Resume template by HTML5UP.'
+
+website: "getgrav.org"
+
+address:
+    - line: "Flat 8 Cordoba Court"
+    - line: "Triq il-Qawra,"
+    - line: "San Pawl il-Bahar"
+contact: 
+    - line: "mikegauci@gmail.com"
+    - line: "+356 99256511"
